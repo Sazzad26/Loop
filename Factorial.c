@@ -7,13 +7,15 @@ Example, 4!=24.
 #include<stdio.h>
 int main()
 {
-    int i, Number, Fact=1;
+    int  Number, Fact=1;
     printf("Enter a number: ");
     scanf("%d", &Number);
     if(Number <0 )
         printf("Invalid input");
-    else{
-        for(i= Number; i >1; i--){
+    else
+    {
+        for( int i= Number; i >1; i--)
+        {
             Fact = Fact*i;
         }
         printf(" %d! = %d", Number, Fact);
