@@ -13,13 +13,11 @@ int main()
     if(Number <0 )
         printf("Invalid input");
     else
-    {
         for( int i= Number; i >1; i--)
         {
             Fact = Fact*i;
         }
         printf(" %d! = %d", Number, Fact);
-    }
 
     return 0;
 }
