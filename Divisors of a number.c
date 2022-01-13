@@ -21,7 +21,6 @@ int main()
             if(dividend%n==0)
             {
             printf("%d ", n);
-            count++;
             }
         }
     return 0;
